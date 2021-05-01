@@ -40,3 +40,11 @@ The designs were created to the following widths:
     margin: 0%;
     box-sizing: border-box;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img{
+    display: flex;
+}
