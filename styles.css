@@ -50,12 +50,16 @@ main{
     align-items: center;
     background-color:hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
-    margin: 30px;
-    margin-top: 5rem ;
-    border-radius: 40px;
+    border-radius: 25px;
+    max-width: 1440px;
+    margin: 15rem;
     
     
 }
+.header-text{
+    padding: 3rem;
+ }
+
 .purple-text{
     color: hsl(277, 64%, 61%);
 }
@@ -64,11 +68,23 @@ h1{
 }
 p{
     padding-bottom: 5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.discription{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    
+}
+.label1, .label2, .label3{
+    font-weight: 700;
+}
+.discription, .label1, .label2, .label3{
+    float: left;
+
+
 }
 .main-img{
     display: flex;
     
 }
-.header-text{
-   padding: 3rem;
-}
+
